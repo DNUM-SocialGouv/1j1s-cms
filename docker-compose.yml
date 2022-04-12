@@ -1,6 +1,7 @@
 services:
   db:
     image: postgres
+    container_name: 1j1s-cms_db_1
     restart: always
     environment:
       POSTGRES_DB: 1j1s-cms

@@ -7,7 +7,12 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "postgres:dump": "docker exec -t 1j1s-cms_db_1 pg_dumpall -c -U admin-1j1s-cms > dump.sql",
+    "postgres:kill": "docker stop 1j1s-cms_db_1 || true && docker rm 1j1s-cms_db_1 || true",
+    "postgres:up": "docker-compose up",
+    "postgres:seed": "cat dump.sql | docker exec -i 1j1s-cms_db_1 psql -U admin-1j1s-cms 1j1s-cms",
+    "postgres:rebuild": "npm run postgres:kill && npm run postgres:up"
   },
   "devDependencies": {},
   "dependencies": {
