@@ -12,18 +12,18 @@
     "postgres:kill": "docker stop 1j1s-cms_db_1 || true && docker rm 1j1s-cms_db_1 || true",
     "postgres:up": "docker-compose up",
     "postgres:seed": "cat dump.sql | docker exec -i 1j1s-cms_db_1 psql -U admin-1j1s-cms 1j1s-cms",
-    "postgres:rebuild": "npm run postgres:kill && npm run postgres:up"
+    "postgres:rebuild": "npm run postgres:kill && npm run postgres:up",
+    "release": "standard-version"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  },
   "dependencies": {
     "@strapi/plugin-documentation": "^4.1.7",
     "@strapi/plugin-i18n": "4.1.7",
     "@strapi/plugin-users-permissions": "4.1.7",
     "@strapi/strapi": "4.1.7",
     "pg": "8.6.0"
-  },
-  "author": {
-    "name": "A Strapi developer"
   },
   "strapi": {
     "uuid": "38cba15f-5ea8-4729-9cfd-98cac9fb8919"
