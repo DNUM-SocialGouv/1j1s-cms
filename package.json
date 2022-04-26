@@ -10,9 +10,9 @@
     "strapi": "strapi",
     "postgres:dump": "docker exec -t 1j1s-cms_db_1 pg_dumpall -c -U admin-1j1s-cms > dump.sql",
     "postgres:kill": "docker stop 1j1s-cms_db_1 || true && docker rm 1j1s-cms_db_1 || true",
-    "postgres:up": "docker-compose up",
+    "postgres:up": "docker-compose up -d",
     "postgres:seed": "cat dump.sql | docker exec -i 1j1s-cms_db_1 psql -U admin-1j1s-cms 1j1s-cms",
-    "postgres:rebuild": "npm run postgres:kill && npm run postgres:up",
+    "postgres:rebuild": "npm run postgres:kill && npm run postgres:up && npm run postgres:seed",
     "release": "standard-version"
   },
   "devDependencies": {
