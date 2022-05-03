@@ -8,11 +8,12 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "postgres:dump": "docker exec -t 1j1s-cms_db_1 pg_dumpall -c -U admin-1j1s-cms > dump.sql",
+    "postgres:dump:local": "docker exec -t 1j1s-cms_db_1 pg_dumpall -c -U admin-1j1s-cms > dump.sql",
+    "postgres:dump:scalingo": "docker exec -i 1j1s-cms_db_1 /bin/bash -c \"PGPASSWORD=1front1cms pg_dump --username admin-1j1s-cms --column-inserts -a -T admin_permissions -T admin_permissions_role_links -T strapi_core_store_settings -T admin_users -T admin_roles -T admin_users_roles_links -T i18n_locale -T strapi_api_tokens -T strapi_database_schema -T up_permissions -T up_roles -T up_permissions_role_links 1j1s-cms\" > dumpforscalingo.sql",
     "postgres:kill": "docker stop 1j1s-cms_db_1 || true && docker rm 1j1s-cms_db_1 || true",
     "postgres:up": "docker-compose up -d",
     "postgres:seed": "cat dump.sql | docker exec -i 1j1s-cms_db_1 psql -U admin-1j1s-cms 1j1s-cms",
-    "postgres:rebuild": "npm run postgres:kill && npm run postgres:up && npm run postgres:seed",
+    "postgres:rebuild": "npm run postgres:kill && npm run postgres:up && npm run postgres:seedlocal",
     "release": "standard-version"
   },
   "devDependencies": {
