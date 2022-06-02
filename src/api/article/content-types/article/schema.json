@@ -4,19 +4,25 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article"
+    "displayName": "Article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Titre": {
+    "titre": {
       "type": "string",
       "required": true
     },
-    "Contenu": {
+    "contenu": {
       "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titre",
+      "required": true
     }
   }
 }
