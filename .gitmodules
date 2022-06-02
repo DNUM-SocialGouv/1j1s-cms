@@ -1,0 +1,3 @@
+[submodule "src/plugins/elastic"]
+	path = src/plugins/elastic
+	url = https://github.com/cillaeslopes/strapi-elastic

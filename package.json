@@ -20,6 +20,7 @@
     "standard-version": "^9.3.2"
   },
   "dependencies": {
+    "@elastic/elasticsearch": "^8.2.1",
     "@strapi/plugin-documentation": "^4.1.7",
     "@strapi/plugin-i18n": "4.1.7",
     "@strapi/plugin-users-permissions": "4.1.7",

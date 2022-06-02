@@ -9,3 +9,10 @@ services:
       POSTGRES_PASSWORD: 1front1cms
     ports:
       - 5432:5432
+  elasticsearch:
+    image: elasticsearch:8.2.2
+    container_name: 1j1s-cms_elastic_search_1
+    restart: always
+    ports:
+      - 9200:9200
+      - 9300:9300
