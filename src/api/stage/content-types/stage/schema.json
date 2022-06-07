@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stages",
+  "info": {
+    "singularName": "stage",
+    "pluralName": "stages",
+    "displayName": "stage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "domaine": {
+      "type": "enumeration",
+      "enum": [
+        "Informatique",
+        "Agriculture"
+      ],
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titre",
+      "required": true
+    },
+    "duree": {
+      "type": "integer"
+    }
+  }
+}

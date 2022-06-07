@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_localisation_localisations",
+  "info": {
+    "displayName": "Localisation",
+    "icon": "directions"
+  },
+  "options": {},
+  "attributes": {
+    "Ville": {
+      "type": "string"
+    },
+    "Pays": {
+      "type": "string"
+    },
+    "Adresse": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    }
+  }
+}
