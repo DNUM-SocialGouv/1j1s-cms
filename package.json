@@ -24,7 +24,8 @@
     "@strapi/plugin-i18n": "4.1.7",
     "@strapi/plugin-users-permissions": "4.1.7",
     "@strapi/strapi": "4.1.7",
-    "pg": "8.6.0"
+    "pg": "8.6.0",
+    "strapi-provider-upload-minio-ce": "^1.0.4"
   },
   "strapi": {
     "uuid": "38cba15f-5ea8-4729-9cfd-98cac9fb8919"
