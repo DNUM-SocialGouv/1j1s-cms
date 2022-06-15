@@ -20,14 +20,6 @@
       "type": "richtext",
       "required": true
     },
-    "domaine": {
-      "type": "enumeration",
-      "enum": [
-        "Informatique",
-        "Agriculture"
-      ],
-      "required": true
-    },
     "date": {
       "type": "date",
       "required": true
@@ -39,6 +31,14 @@
     },
     "duree": {
       "type": "integer"
+    },
+    "domaines": {
+      "type": "json"
+    },
+    "Localisation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "localisation.localisation"
     }
   }
 }

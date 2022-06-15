@@ -7,7 +7,7 @@ module.exports = () => ({
       stage: {
         indexName: 'stages',
         settings: {
-          filterableAttributes: ['domaine', 'duree'],
+          filterableAttributes: ['domaines', 'duree', 'localisation'],
         },
       }
     }

@@ -14,7 +14,11 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
+<<<<<<< Updated upstream
     "x-generation-date": "2022-06-15T07:31:04.720Z"
+=======
+    "x-generation-date": "2022-06-14T15:09:13.217Z"
+>>>>>>> Stashed changes
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4517,13 +4521,6 @@
                               "description": {
                                 "type": "string"
                               },
-                              "domaine": {
-                                "type": "string",
-                                "enum": [
-                                  "Informatique",
-                                  "Agriculture"
-                                ]
-                              },
                               "date": {
                                 "type": "string",
                                 "format": "date"
@@ -4533,6 +4530,32 @@
                               },
                               "duree": {
                                 "type": "integer"
+                              },
+                              "domaines": {},
+                              "Localisation": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "Ville": {
+                                    "type": "string"
+                                  },
+                                  "Pays": {
+                                    "type": "string"
+                                  },
+                                  "Adresse": {
+                                    "type": "string"
+                                  },
+                                  "Latitude": {
+                                    "type": "number",
+                                    "format": "float"
+                                  },
+                                  "Longitude": {
+                                    "type": "number",
+                                    "format": "float"
+                                  }
+                                }
                               },
                               "createdAt": {
                                 "type": "string",
@@ -5120,13 +5143,6 @@
                             "description": {
                               "type": "string"
                             },
-                            "domaine": {
-                              "type": "string",
-                              "enum": [
-                                "Informatique",
-                                "Agriculture"
-                              ]
-                            },
                             "date": {
                               "type": "string",
                               "format": "date"
@@ -5136,6 +5152,32 @@
                             },
                             "duree": {
                               "type": "integer"
+                            },
+                            "domaines": {},
+                            "Localisation": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "Ville": {
+                                  "type": "string"
+                                },
+                                "Pays": {
+                                  "type": "string"
+                                },
+                                "Adresse": {
+                                  "type": "string"
+                                },
+                                "Latitude": {
+                                  "type": "number",
+                                  "format": "float"
+                                },
+                                "Longitude": {
+                                  "type": "number",
+                                  "format": "float"
+                                }
+                              }
                             },
                             "createdAt": {
                               "type": "string",
@@ -5612,13 +5654,6 @@
                       "description": {
                         "type": "string"
                       },
-                      "domaine": {
-                        "type": "string",
-                        "enum": [
-                          "Informatique",
-                          "Agriculture"
-                        ]
-                      },
                       "date": {
                         "type": "string",
                         "format": "date"
@@ -5659,13 +5694,6 @@
                             "description": {
                               "type": "string"
                             },
-                            "domaine": {
-                              "type": "string",
-                              "enum": [
-                                "Informatique",
-                                "Agriculture"
-                              ]
-                            },
                             "date": {
                               "type": "string",
                               "format": "date"
@@ -5675,6 +5703,32 @@
                             },
                             "duree": {
                               "type": "integer"
+                            },
+                            "domaines": {},
+                            "Localisation": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "Ville": {
+                                  "type": "string"
+                                },
+                                "Pays": {
+                                  "type": "string"
+                                },
+                                "Adresse": {
+                                  "type": "string"
+                                },
+                                "Latitude": {
+                                  "type": "number",
+                                  "format": "float"
+                                },
+                                "Longitude": {
+                                  "type": "number",
+                                  "format": "float"
+                                }
+                              }
                             },
                             "createdAt": {
                               "type": "string",
@@ -6171,13 +6225,6 @@
                             "description": {
                               "type": "string"
                             },
-                            "domaine": {
-                              "type": "string",
-                              "enum": [
-                                "Informatique",
-                                "Agriculture"
-                              ]
-                            },
                             "date": {
                               "type": "string",
                               "format": "date"
@@ -6187,6 +6234,32 @@
                             },
                             "duree": {
                               "type": "integer"
+                            },
+                            "domaines": {},
+                            "Localisation": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "Ville": {
+                                  "type": "string"
+                                },
+                                "Pays": {
+                                  "type": "string"
+                                },
+                                "Adresse": {
+                                  "type": "string"
+                                },
+                                "Latitude": {
+                                  "type": "number",
+                                  "format": "float"
+                                },
+                                "Longitude": {
+                                  "type": "number",
+                                  "format": "float"
+                                }
+                              }
                             },
                             "createdAt": {
                               "type": "string",
@@ -6674,13 +6747,6 @@
                       "description": {
                         "type": "string"
                       },
-                      "domaine": {
-                        "type": "string",
-                        "enum": [
-                          "Informatique",
-                          "Agriculture"
-                        ]
-                      },
                       "date": {
                         "type": "string",
                         "format": "date"
@@ -6690,6 +6756,29 @@
                       },
                       "duree": {
                         "type": "integer"
+                      },
+                      "domaines": {},
+                      "Localisation": {
+                        "type": "object",
+                        "properties": {
+                          "Ville": {
+                            "type": "string"
+                          },
+                          "Pays": {
+                            "type": "string"
+                          },
+                          "Adresse": {
+                            "type": "string"
+                          },
+                          "Latitude": {
+                            "type": "number",
+                            "format": "float"
+                          },
+                          "Longitude": {
+                            "type": "number",
+                            "format": "float"
+                          }
+                        }
                       },
                       "createdAt": {
                         "type": "string",
