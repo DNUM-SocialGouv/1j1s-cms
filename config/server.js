@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
   },
   admin: {
     watchIgnoreFiles: [
-      '**/data.ms/**'
+      '**/data.ms/**',
     ]
   }
 });

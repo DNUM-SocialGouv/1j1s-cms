@@ -4,7 +4,7 @@
   "info": {
     "singularName": "stage",
     "pluralName": "stages",
-    "displayName": "stage",
+    "displayName": "Stage",
     "description": ""
   },
   "options": {
@@ -27,7 +27,7 @@
     "slug": {
       "type": "uid",
       "targetField": "titre",
-      "required": true
+      "required": false
     },
     "duree": {
       "type": "integer"
@@ -35,7 +35,7 @@
     "domaines": {
       "type": "json"
     },
-    "Localisation": {
+    "localisation": {
       "type": "component",
       "repeatable": false,
       "component": "localisation.localisation"

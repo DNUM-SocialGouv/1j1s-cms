@@ -19,3 +19,9 @@ Strapi fourni une api de base auto générer qui permet d'accéder à la donnée
   - http://localhost:1337/api/accueil?populate[articles][populate]=*
     (on indique ici qu'on veut accéder à tous les attributs du content type accueil)
   
+## Création d'un nouveau contenu
+### Nom du contenu
+Le nom du contenu doit démarrer avec une majuscule suivie de minuscules.
+
+### Nom des champs du contenu
+Le nom des champs du nouveau contenu doit être écrit totalement en minuscules.

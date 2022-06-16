@@ -2,23 +2,24 @@
   "collectionName": "components_localisation_localisations",
   "info": {
     "displayName": "Localisation",
-    "icon": "directions"
+    "icon": "directions",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Ville": {
+    "ville": {
       "type": "string"
     },
-    "Pays": {
+    "pays": {
       "type": "string"
     },
-    "Adresse": {
+    "adresse": {
       "type": "string"
     },
-    "Latitude": {
+    "latitude": {
       "type": "float"
     },
-    "Longitude": {
+    "longitude": {
       "type": "float"
     }
   }

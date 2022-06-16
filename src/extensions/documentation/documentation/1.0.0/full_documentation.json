@@ -14,11 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-<<<<<<< Updated upstream
-    "x-generation-date": "2022-06-15T07:31:04.720Z"
-=======
-    "x-generation-date": "2022-06-14T15:09:13.217Z"
->>>>>>> Stashed changes
+    "x-generation-date": "2022-06-16T08:47:59.581Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4532,26 +4528,26 @@
                                 "type": "integer"
                               },
                               "domaines": {},
-                              "Localisation": {
+                              "localisation": {
                                 "type": "object",
                                 "properties": {
                                   "id": {
                                     "type": "string"
                                   },
-                                  "Ville": {
+                                  "ville": {
                                     "type": "string"
                                   },
-                                  "Pays": {
+                                  "pays": {
                                     "type": "string"
                                   },
-                                  "Adresse": {
+                                  "adresse": {
                                     "type": "string"
                                   },
-                                  "Latitude": {
+                                  "latitude": {
                                     "type": "number",
                                     "format": "float"
                                   },
-                                  "Longitude": {
+                                  "longitude": {
                                     "type": "number",
                                     "format": "float"
                                   }
@@ -5154,26 +5150,26 @@
                               "type": "integer"
                             },
                             "domaines": {},
-                            "Localisation": {
+                            "localisation": {
                               "type": "object",
                               "properties": {
                                 "id": {
                                   "type": "string"
                                 },
-                                "Ville": {
+                                "ville": {
                                   "type": "string"
                                 },
-                                "Pays": {
+                                "pays": {
                                   "type": "string"
                                 },
-                                "Adresse": {
+                                "adresse": {
                                   "type": "string"
                                 },
-                                "Latitude": {
+                                "latitude": {
                                   "type": "number",
                                   "format": "float"
                                 },
-                                "Longitude": {
+                                "longitude": {
                                   "type": "number",
                                   "format": "float"
                                 }
@@ -5657,9 +5653,6 @@
                       "date": {
                         "type": "string",
                         "format": "date"
-                      },
-                      "slug": {
-                        "type": "string"
                       }
                     }
                   }
@@ -5705,26 +5698,26 @@
                               "type": "integer"
                             },
                             "domaines": {},
-                            "Localisation": {
+                            "localisation": {
                               "type": "object",
                               "properties": {
                                 "id": {
                                   "type": "string"
                                 },
-                                "Ville": {
+                                "ville": {
                                   "type": "string"
                                 },
-                                "Pays": {
+                                "pays": {
                                   "type": "string"
                                 },
-                                "Adresse": {
+                                "adresse": {
                                   "type": "string"
                                 },
-                                "Latitude": {
+                                "latitude": {
                                   "type": "number",
                                   "format": "float"
                                 },
-                                "Longitude": {
+                                "longitude": {
                                   "type": "number",
                                   "format": "float"
                                 }
@@ -6236,26 +6229,26 @@
                               "type": "integer"
                             },
                             "domaines": {},
-                            "Localisation": {
+                            "localisation": {
                               "type": "object",
                               "properties": {
                                 "id": {
                                   "type": "string"
                                 },
-                                "Ville": {
+                                "ville": {
                                   "type": "string"
                                 },
-                                "Pays": {
+                                "pays": {
                                   "type": "string"
                                 },
-                                "Adresse": {
+                                "adresse": {
                                   "type": "string"
                                 },
-                                "Latitude": {
+                                "latitude": {
                                   "type": "number",
                                   "format": "float"
                                 },
-                                "Longitude": {
+                                "longitude": {
                                   "type": "number",
                                   "format": "float"
                                 }
@@ -6758,23 +6751,23 @@
                         "type": "integer"
                       },
                       "domaines": {},
-                      "Localisation": {
+                      "localisation": {
                         "type": "object",
                         "properties": {
-                          "Ville": {
+                          "ville": {
                             "type": "string"
                           },
-                          "Pays": {
+                          "pays": {
                             "type": "string"
                           },
-                          "Adresse": {
+                          "adresse": {
                             "type": "string"
                           },
-                          "Latitude": {
+                          "latitude": {
                             "type": "number",
                             "format": "float"
                           },
-                          "Longitude": {
+                          "longitude": {
                             "type": "number",
                             "format": "float"
                           }

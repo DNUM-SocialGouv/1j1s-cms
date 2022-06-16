@@ -6,8 +6,17 @@ module.exports = () => ({
       apiKey: "masterKey",
       stage: {
         indexName: 'stages',
+        transformEntry({ entry }) {
+          return {
+            ...entry,
+            _geo: {
+              lat: entry.localisation?.latitude,
+              lng: entry.localisation?.longitude
+            }
+          }
+        },
         settings: {
-          filterableAttributes: ['domaines', 'duree', 'localisation'],
+          filterableAttributes: ['domaines', 'duree', '_geo'],
         },
       }
     }
