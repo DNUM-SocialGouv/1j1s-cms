@@ -1,6 +1,5 @@
 module.exports = [
   'strapi::errors',
-  'strapi::security',
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
@@ -16,8 +15,8 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', 'storage-eb4.cegedim.cloud'],
-          'media-src': ["'self'", 'data:', 'blob:', 'storage-eb4.cegedim.cloud'],
+          'img-src': ["'self'", 'data:', 'blob:', process.env.MINIO_HOST],
+          'media-src': ["'self'", 'data:', 'blob:', process.env.MINIO_HOST],
           upgradeInsecureRequests: null,
         },
       },
