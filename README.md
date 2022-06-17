@@ -16,6 +16,8 @@ Puis, populate la base
 npm run postgres:seed
 ```
 
+Guide pour configurer le service de stockage des medias si cela n'a jamais été fait par un membre de l'équipe: [ici](./doc/configuration.md)
+
 #### Sinon
 Après chaque mise à jour du contenu du cms, vous devez faire un rebuild de la database si de la data a été ajouté
 ```
