@@ -29,7 +29,7 @@
                               "contenu": {
                                 "type": "string"
                               },
-                              "image": {
+                              "banniere": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -988,7 +988,7 @@
                             "contenu": {
                               "type": "string"
                             },
-                            "image": {
+                            "banniere": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -1869,7 +1869,7 @@
                             "contenu": {
                               "type": "string"
                             },
-                            "image": {
+                            "banniere": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -2737,7 +2737,7 @@
                             "contenu": {
                               "type": "string"
                             },
-                            "image": {
+                            "banniere": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -3596,7 +3596,7 @@
                       "contenu": {
                         "type": "string"
                       },
-                      "image": {
+                      "banniere": {
                         "oneOf": [
                           {
                             "type": "integer"

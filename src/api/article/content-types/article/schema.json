@@ -22,14 +22,16 @@
       "required": true
     },
     "contenu": {
-      "type": "richtext"
+      "type": "richtext",
+      "default": "Règles d'édition de contenu : Ne pas utiliser de titre h1, il ne peut y en avoir qu'un seul par page (le champ titre est prévu pour cela). Éviter au maximum l'utilisation d'images dans le contenu (le champ bannière est aussi prévu pour cela)."
     },
-    "image": {
+    "banniere": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

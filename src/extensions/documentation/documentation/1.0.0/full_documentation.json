@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-06-17T09:43:32.305Z"
+    "x-generation-date": "2022-06-20T12:44:35.965Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -79,7 +79,7 @@
                               "contenu": {
                                 "type": "string"
                               },
-                              "image": {
+                              "banniere": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -1038,7 +1038,7 @@
                             "contenu": {
                               "type": "string"
                             },
-                            "image": {
+                            "banniere": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -1919,7 +1919,7 @@
                             "contenu": {
                               "type": "string"
                             },
-                            "image": {
+                            "banniere": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -2787,7 +2787,7 @@
                             "contenu": {
                               "type": "string"
                             },
-                            "image": {
+                            "banniere": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -3646,7 +3646,7 @@
                       "contenu": {
                         "type": "string"
                       },
-                      "image": {
+                      "banniere": {
                         "oneOf": [
                           {
                             "type": "integer"
