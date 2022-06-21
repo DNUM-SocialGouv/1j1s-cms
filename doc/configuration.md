@@ -4,7 +4,7 @@ Pour gérer les médias dans Strapi, il est nécéssaire de configurer un provid
 Dans notre cas, nous utilisons un service de stockage d'objets de type Amazon S3.
 Voici la marche à suivre pour configurer le service et le brancher à Strapi.
 
-## Étape 1: Connexion au service de stockage et création du bucket
+## Étape 1: Connexion au service de stockage et création d'un bucket
 Le service de stockage utilisé est un service « compatible S3 » (ie : protocole S3 implémenté).
 Physiquement, les données sont hébergés par Cegedim, en France et non par Amazon.
 Le produit [Minio](https://docs.min.io/docs/aws-cli-with-minio.html) se cache derrière ce service.
@@ -25,6 +25,31 @@ Pour lister les buckets existants et vérifier que ce dernier a bien été cré�
 ```
 $ aws --endpoint-url https://storage-eb4.cegedim.cloud s3 ls
 ```
+
+Enfin, il est nécéssaire de configurer les droits d'accès de notre bucket créé. 
+Pour les besoins du CMS, il faut que le contenu du bucket soit accessible publiquement en lecture seule.
+Dans votre répertoire courant, créez un fichier `policy.json` puis collez le contenu suivant : 
+```
+{
+   "Statement": [{
+      "Effect": "Allow",
+      "Principal": {
+         "AWS": "*"
+      },
+      "Action": "s3:GetObject",
+      "Resource":  [
+         "arn:aws:s3:::strapi-medias",
+         "arn:aws:s3:::strapi-medias/*"
+      ]
+   }]
+}
+```
+Il s'agit d'une règle qui permet au bucket d'être accessible en lecture par tous les utilisateurs même non authentifiés (donc n'importe qui)
+Ce fichier de règle doit ensuite être appliqué à notre bucket comme ceci : 
+```
+aws --endpoint-url https://storage-eb4.cegedim.cloud s3api put-bucket-policy --bucket strapi-medias --policy file://policy.json --profile 1j1s-dev
+```
+
 
 ## Étape 2: Installation du plugin Strapi
 Il n'existe malheureusement pas de plugin officiel maintenu par Strapi pour se connecter à un service Minio. 
