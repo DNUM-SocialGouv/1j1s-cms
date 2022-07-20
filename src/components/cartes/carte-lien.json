@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_cartes_carte_liens",
+  "info": {
+    "displayName": "Carte lien",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string",
+      "required": true
+    },
+    "contenu": {
+      "type": "text",
+      "required": true
+    },
+    "banniere": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "regex": "^http(s)?:\\/\\/",
+      "required": true
+    }
+  }
+}
