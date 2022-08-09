@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "prenom": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "nom": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "maxLength": 128
+    },
+    "telephone": {
+      "type": "string",
+      "required": true,
+      "regex": "(\\+33|0|0033)[0-9]{9}",
+      "maxLength": 14
+    },
+    "age": {
+      "type": "integer",
+      "default": 20,
+      "required": true,
+      "max": 30,
+      "min": 16
+    },
+    "ville": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    }
+  }
+}
