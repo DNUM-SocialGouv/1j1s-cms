@@ -4,7 +4,6 @@ module.exports = [
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
-  'strapi::body',
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
@@ -20,6 +19,12 @@ module.exports = [
           upgradeInsecureRequests: null,
         },
       },
+    },
+  },
+  {
+    name: 'strapi::body',
+    config: {
+      jsonLimit: '20mb',
     },
   },
 ];

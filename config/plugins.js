@@ -23,4 +23,13 @@ module.exports = ({ env }) => ({
       jwtSecret: env('JWT_SECRET')
     },
   },
+  'import-export-entries': {
+    enabled: true,
+  },
+  meilisearch: {
+    config: {
+      host: env('PLUGIN_MEILISEARCH_URL'),
+      apiKey: env("PLUGIN_MEILISEARCH_API_KEY")
+    }
+  },
 });

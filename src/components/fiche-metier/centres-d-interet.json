@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_fiche_metier_centres_d_interets",
+  "info": {
+    "displayName": "Centres d'intérêt"
+  },
+  "options": {},
+  "attributes": {
+    "centre_interet": {
+      "displayName": "Centre d'intérêt",
+      "type": "component",
+      "repeatable": false,
+      "component": "fiche-metier.centre-d-interet"
+    }
+  }
+}

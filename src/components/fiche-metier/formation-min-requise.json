@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_fiche_metier_formation_min_requises",
+  "info": {
+    "displayName": "Formation min requise"
+  },
+  "options": {},
+  "attributes": {
+    "identifiant": {
+      "type": "string"
+    },
+    "libelle": {
+      "type": "string"
+    }
+  }
+}

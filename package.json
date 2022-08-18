@@ -25,7 +25,9 @@
     "@strapi/plugin-users-permissions": "4.2.2",
     "@strapi/provider-upload-aws-s3": "^4.2.2",
     "@strapi/strapi": "4.2.2",
-    "pg": "8.6.0"
+    "pg": "8.6.0",
+    "strapi-plugin-import-export-entries": "^1.11.1",
+    "strapi-plugin-meilisearch": "^0.7.1"
   },
   "strapi": {
     "uuid": "38cba15f-5ea8-4729-9cfd-98cac9fb8919"

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_fiche_metier_secteurs_d_activite",
+  "info": {
+    "displayName": "Secteurs d'activité"
+  },
+  "options": {},
+  "attributes": {
+    "secteur_activite": {
+      "displayName": "Secteur d'activité",
+      "type": "component",
+      "repeatable": true,
+      "component": "fiche-metier.secteur-d-activite"
+    }
+  }
+}

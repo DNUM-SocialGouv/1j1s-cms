@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_fiche_metier_synonymes",
+  "info": {
+    "displayName": "Synonymes"
+  },
+  "options": {},
+  "attributes": {
+    "synonyme": {
+      "type": "string"
+    }
+  }
+}
