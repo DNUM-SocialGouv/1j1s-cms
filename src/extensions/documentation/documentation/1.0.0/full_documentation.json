@@ -3697,13 +3697,16 @@
                 "type": "object",
                 "properties": {
                   "centre_interet": {
-                    "type": "object",
-                    "properties": {
-                      "identifiant": {
-                        "type": "string"
-                      },
-                      "libelle": {
-                        "type": "string"
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "identifiant": {
+                          "type": "string"
+                        },
+                        "libelle": {
+                          "type": "string"
+                        }
                       }
                     }
                   }
@@ -3840,16 +3843,19 @@
                           "type": "string"
                         },
                         "centre_interet": {
-                          "type": "object",
-                          "properties": {
-                            "id": {
-                              "type": "string"
-                            },
-                            "identifiant": {
-                              "type": "string"
-                            },
-                            "libelle": {
-                              "type": "string"
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "identifiant": {
+                                "type": "string"
+                              },
+                              "libelle": {
+                                "type": "string"
+                              }
                             }
                           }
                         }
@@ -4321,16 +4327,19 @@
                         "type": "string"
                       },
                       "centre_interet": {
-                        "type": "object",
-                        "properties": {
-                          "id": {
-                            "type": "string"
-                          },
-                          "identifiant": {
-                            "type": "string"
-                          },
-                          "libelle": {
-                            "type": "string"
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "identifiant": {
+                              "type": "string"
+                            },
+                            "libelle": {
+                              "type": "string"
+                            }
                           }
                         }
                       }
