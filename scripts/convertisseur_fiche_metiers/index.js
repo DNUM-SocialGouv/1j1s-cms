@@ -14,8 +14,7 @@ const parser = xml2js.Parser({
 try {
   fs.readFile(ONISEP_XML_FILENAME, (err, data) => {
     parser.parseString(data, (err, res) => {
-      const date = new Date().toISOString()
-      const generatedFileName = `fiches-metiers-${date}.json`
+      const generatedFileName = `fiches-metiers.json`
       const mappedResult = mapMetierList(res)
       const dataAsJSONString = JSON.stringify(mappedResult, null, 2)
 
