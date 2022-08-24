@@ -1,5 +1,5 @@
 {
-  "/contacts": {
+  "/contact-cejs": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ContactListResponse"
+                "$ref": "#/components/schemas/ContactCejListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Contact"
+        "Contact-cej"
       ],
       "parameters": [
         {
@@ -148,7 +148,7 @@
           }
         }
       ],
-      "operationId": "get/contacts"
+      "operationId": "get/contact-cejs"
     },
     "post": {
       "responses": {
@@ -157,7 +157,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ContactResponse"
+                "$ref": "#/components/schemas/ContactCejResponse"
               }
             }
           }
@@ -214,23 +214,23 @@
         }
       },
       "tags": [
-        "Contact"
+        "Contact-cej"
       ],
       "parameters": [],
-      "operationId": "post/contacts",
+      "operationId": "post/contact-cejs",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/ContactRequest"
+              "$ref": "#/components/schemas/ContactCejRequest"
             }
           }
         }
       }
     }
   },
-  "/contacts/{id}": {
+  "/contact-cejs/{id}": {
     "get": {
       "responses": {
         "200": {
@@ -238,7 +238,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ContactResponse"
+                "$ref": "#/components/schemas/ContactCejResponse"
               }
             }
           }
@@ -295,7 +295,7 @@
         }
       },
       "tags": [
-        "Contact"
+        "Contact-cej"
       ],
       "parameters": [
         {
@@ -309,7 +309,7 @@
           }
         }
       ],
-      "operationId": "get/contacts/{id}"
+      "operationId": "get/contact-cejs/{id}"
     },
     "put": {
       "responses": {
@@ -318,7 +318,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ContactResponse"
+                "$ref": "#/components/schemas/ContactCejResponse"
               }
             }
           }
@@ -375,7 +375,7 @@
         }
       },
       "tags": [
-        "Contact"
+        "Contact-cej"
       ],
       "parameters": [
         {
@@ -389,13 +389,13 @@
           }
         }
       ],
-      "operationId": "put/contacts/{id}",
+      "operationId": "put/contact-cejs/{id}",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/ContactRequest"
+              "$ref": "#/components/schemas/ContactCejRequest"
             }
           }
         }
@@ -466,7 +466,7 @@
         }
       },
       "tags": [
-        "Contact"
+        "Contact-cej"
       ],
       "parameters": [
         {
@@ -480,7 +480,7 @@
           }
         }
       ],
-      "operationId": "delete/contacts/{id}"
+      "operationId": "delete/contact-cejs/{id}"
     }
   }
 }
