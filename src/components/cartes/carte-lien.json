@@ -34,7 +34,7 @@
       "target": "api::article.article"
     },
     "pourQui": {
-      "type": "richtext"
+      "type": "string"
     }
   }
 }
