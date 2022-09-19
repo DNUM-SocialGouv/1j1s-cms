@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-09T16:09:16.047Z"
+    "x-generation-date": "2022-09-19T14:19:25.020Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6216,6 +6216,9 @@
                         }
                       ],
                       "example": "string or id"
+                    },
+                    "pourQui": {
+                      "type": "string"
                     }
                   }
                 }
@@ -7318,6 +7321,9 @@
                                 }
                               }
                             }
+                          },
+                          "pourQui": {
+                            "type": "string"
                           }
                         }
                       }
@@ -8490,6 +8496,9 @@
                               }
                             }
                           }
+                        },
+                        "pourQui": {
+                          "type": "string"
                         }
                       }
                     }
@@ -9285,6 +9294,9 @@
                         }
                       ],
                       "example": "string or id"
+                    },
+                    "pourQui": {
+                      "type": "string"
                     }
                   }
                 }
@@ -9324,6 +9336,9 @@
                         }
                       ],
                       "example": "string or id"
+                    },
+                    "pourQui": {
+                      "type": "string"
                     }
                   }
                 }
@@ -9363,6 +9378,9 @@
                         }
                       ],
                       "example": "string or id"
+                    },
+                    "pourQui": {
+                      "type": "string"
                     }
                   }
                 }
@@ -9402,6 +9420,9 @@
                         }
                       ],
                       "example": "string or id"
+                    },
+                    "pourQui": {
+                      "type": "string"
                     }
                   }
                 }
@@ -10504,6 +10525,9 @@
                                 }
                               }
                             }
+                          },
+                          "pourQui": {
+                            "type": "string"
                           }
                         }
                       }
@@ -10911,6 +10935,9 @@
                                 }
                               }
                             }
+                          },
+                          "pourQui": {
+                            "type": "string"
                           }
                         }
                       }
@@ -11318,6 +11345,9 @@
                                 }
                               }
                             }
+                          },
+                          "pourQui": {
+                            "type": "string"
                           }
                         }
                       }
@@ -11725,6 +11755,9 @@
                                 }
                               }
                             }
+                          },
+                          "pourQui": {
+                            "type": "string"
                           }
                         }
                       }
@@ -12897,6 +12930,9 @@
                               }
                             }
                           }
+                        },
+                        "pourQui": {
+                          "type": "string"
                         }
                       }
                     }
@@ -13304,6 +13340,9 @@
                               }
                             }
                           }
+                        },
+                        "pourQui": {
+                          "type": "string"
                         }
                       }
                     }
@@ -13711,6 +13750,9 @@
                               }
                             }
                           }
+                        },
+                        "pourQui": {
+                          "type": "string"
                         }
                       }
                     }
@@ -14118,6 +14160,9 @@
                               }
                             }
                           }
+                        },
+                        "pourQui": {
+                          "type": "string"
                         }
                       }
                     }
