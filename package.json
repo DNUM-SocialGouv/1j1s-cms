@@ -13,20 +13,16 @@
     "postgres:kill": "docker stop 1j1s-cms_db_1 || true && docker rm 1j1s-cms_db_1 || true",
     "postgres:up": "docker-compose up -d",
     "postgres:seed": "cat dump.sql | docker exec -i 1j1s-cms_db_1 psql -U admin-1j1s-cms 1j1s-cms",
-    "postgres:rebuild": "npm run postgres:kill && npm run postgres:up && npm run postgres:seed",
-    "release": "standard-version"
-  },
-  "devDependencies": {
-    "standard-version": "^9.3.2"
+    "postgres:rebuild": "npm run postgres:kill && npm run postgres:up && npm run postgres:seed"
   },
   "dependencies": {
-    "@strapi/plugin-documentation": "^4.2.2",
-    "@strapi/plugin-i18n": "4.2.2",
-    "@strapi/plugin-users-permissions": "4.2.2",
-    "@strapi/provider-upload-aws-s3": "^4.2.2",
-    "@strapi/strapi": "4.2.2",
+    "@strapi/plugin-documentation": "^4.3.8",
+    "@strapi/plugin-i18n": "^4.3.8",
+    "@strapi/plugin-users-permissions": "^4.3.8",
+    "@strapi/provider-upload-aws-s3": "^4.3.8",
+    "@strapi/strapi": "^4.3.8",
     "pg": "8.6.0",
-    "strapi-plugin-import-export-entries": "^1.11.1",
+    "strapi-plugin-import-export-entries": "^1.14.1",
     "strapi-plugin-meilisearch": "^0.7.1"
   },
   "strapi": {
