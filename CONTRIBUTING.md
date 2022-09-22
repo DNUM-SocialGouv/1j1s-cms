@@ -1,14 +1,16 @@
 ## Création d'un nouveau contenu
 
-Lors de la création d'un nouveau `Content-Type` il faudra lui donner les accès en mode 
-public pour qu'il soit accéssible depuis le back et le front. (pas besoin d'un bearer si le cms
-est accèssible via le front le bearer token est visible).
+Lors de la création d'un nouveau `Content-Type` il faut ajouter les accès à celui-ci aux utilisateurs 
+authenticated pour qu'il soit accessible depuis le serveur.
+Si un contenu doit être appelé depuis le front,
+un accès en mode public sera aussi nécessaire (un éventuel bearer aurait été visible).
 
-Etapes :
-![alt text](./doc/strapi%200.png)
-![alt text](./doc/strapi%201.1.png)
-![alt text](./doc/strapi%201.png)
-![alt text](./doc/strapi%202.png)
+1. Créer un content-type :
+![Créer un content-type](./doc/content-type/creer-content-type-1.png)
+![contribuer le nouveau content-type](./doc/content-type/creer-content-type-2.png)
+2. Ajouter des droits :
+![Ouvrir les paramètres rôles des permissions utilisateur](./doc/roles/permissions-public-1.png)
+![Ajouter une permission](./doc/roles/permissions-public-2.png)
 
 ## Exemple d'appel à l'api Strapi
 

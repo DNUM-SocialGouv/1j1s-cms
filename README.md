@@ -1,42 +1,52 @@
 # 🚀 Getting started with Strapi
 
 ### Local :
+
 ```
 npm run install
 ```
 
 #### Si c'est la première fois que vous démarrez l'appli
+
 Démarrer le postgres avant de démarrer l'application
+
 ```
 npm run postgres:up
 ```
 
 Puis, populate la base
+
 ```
 npm run postgres:seed
 ```
 
-Guide pour configurer le service de stockage des medias si cela n'a jamais été fait par un membre de l'équipe: [ici](./doc/configuration.md)
+Guide pour configurer le service de stockage des medias si cela n'a jamais été fait par un membre de l'
+équipe : [ici](doc/media/configuration-stockage-media.md)
 
 #### Sinon
-Après chaque mise à jour du contenu du cms, vous devez faire un rebuild de la database si de la data a été ajouté
+
+Après chaque mise à jour du contenu du cms, vous devez faire un rebuild de la database si de la data a été ajoutée.
+
 ```
 npm run postgres:rebuild
 ```
 
-Mode dev avec l'auto reload. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+Mode dev avec l'auto
+reload. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+
 ```
 npm run develop
 ```
 
 ### Tester le mode prod en dev
+
 Mode prod. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
 
 ```
 npm run build & npm run start
 ```
 
-#### Pour faire un seed depuis scalingo
+#### Pour faire un seed depuis Scalingo
 
 Aller sur [adminer](https://adminer.osc-fr1.scalingo.com/) cliquer sur "Exporter".
 Prenez toutes les tables et leurs données.
