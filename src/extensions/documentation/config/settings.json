@@ -1,0 +1,30 @@
+{
+  "info": {
+    "version": "1.1.0",
+    "title": "CMS du site 1 jeune 1 solution",
+    "description": "Contenu éditorial du site 1 jeune 1 solution",
+    "license": {
+      "name": "MIT",
+      "url": "https://github.com/DNUM-SocialGouv/1j1s-cms/blob/main/LICENSE"
+    },
+    "contact": {
+      "name": "l'équipe",
+      "email": "OCTO.1j1s@accenture.com",
+      "url": "https://www.1jeune1solution.gouv.fr/"
+    }
+  },
+  "servers": [
+    {
+      "description": "Local Server",
+      "url": "http://localhost:1337"
+    },
+    {
+      "description": "Integration Server",
+      "url": "https://1j1s-cms.osc-fr1.scalingo.io"
+    },
+    {
+      "description": "Production Server",
+      "url": "https://1j1s-cms-prod.osc-fr1.scalingo.io"
+    }
+  ]
+}

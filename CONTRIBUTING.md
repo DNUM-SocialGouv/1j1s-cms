@@ -1,9 +1,8 @@
 ## Création d'un nouveau contenu
 
 Lors de la création d'un nouveau `Content-Type` il faut ajouter les accès à celui-ci aux utilisateurs 
-authenticated pour qu'il soit accessible depuis le serveur.
-Si un contenu doit être appelé depuis le front,
-un accès en mode public sera aussi nécessaire (un éventuel bearer aurait été visible).
+`public` (`find`) ou `authenticated` (`create`) pour qu'il soit accessible depuis le serveur.
+Si un contenu doit être appelé depuis le front, l'accès sera forcément en mode public.
 
 1. Créer un content-type :
 ![Créer un content-type](./doc/content-type/creer-content-type-1.png)

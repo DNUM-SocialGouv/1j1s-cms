@@ -1,20 +1,20 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "version": "1.0.0",
-    "title": "DOCUMENTATION",
-    "description": "",
+    "version": "1.1.0",
+    "title": "CMS du site 1 jeune 1 solution",
+    "description": "Contenu éditorial du site 1 jeune 1 solution",
     "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
     "contact": {
-      "name": "TEAM",
-      "email": "contact-email@something.io",
-      "url": "mywebsite.io"
+      "name": "l'équipe",
+      "email": "OCTO.1j1s@accenture.com",
+      "url": "https://www.1jeune1solution.gouv.fr/"
     },
     "license": {
-      "name": "Apache 2.0",
-      "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+      "name": "MIT",
+      "url": "https://github.com/DNUM-SocialGouv/1j1s-cms/blob/main/LICENSE"
     },
-    "x-generation-date": "2022-09-26T07:53:41.631Z"
+    "x-generation-date": "2022-09-26T16:20:53.975Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -28,8 +28,16 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337/api",
-      "description": "Development server"
+      "url": "http://localhost:1337",
+      "description": "Local Server"
+    },
+    {
+      "description": "Integration Server",
+      "url": "https://1j1s-cms.osc-fr1.scalingo.io"
+    },
+    {
+      "description": "Production Server",
+      "url": "https://1j1s-cms-prod.osc-fr1.scalingo.io"
     }
   ],
   "externalDocs": {
