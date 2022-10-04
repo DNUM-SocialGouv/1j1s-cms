@@ -1,0 +1,201 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::contact-cej.contact-cej",
+  "value": {
+    "uid": "api::contact-cej.contact-cej",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "prenom",
+      "defaultSortBy": "prenom",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "prenom": {
+        "edit": {
+          "label": "prenom",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "prenom",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "nom": {
+        "edit": {
+          "label": "nom",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nom",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "email": {
+        "edit": {
+          "label": "email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "telephone": {
+        "edit": {
+          "label": "telephone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "telephone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "age": {
+        "edit": {
+          "label": "age",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "age",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ville": {
+        "edit": {
+          "label": "ville",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ville",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "code_postal": {
+        "edit": {
+          "label": "code_postal",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "code_postal",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "prenom",
+        "nom",
+        "email"
+      ],
+      "edit": [
+        [
+          {
+            "name": "prenom",
+            "size": 6
+          },
+          {
+            "name": "nom",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "email",
+            "size": 6
+          },
+          {
+            "name": "telephone",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "age",
+            "size": 4
+          },
+          {
+            "name": "ville",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "code_postal",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

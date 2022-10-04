@@ -1,0 +1,385 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::fiche-metier.fiche-metier",
+  "value": {
+    "uid": "api::fiche-metier.fiche-metier",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "nom_metier",
+      "defaultSortBy": "nom_metier",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "nom_metier": {
+        "edit": {
+          "label": "nom_metier",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nom_metier",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "competences": {
+        "edit": {
+          "label": "competences",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "competences",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "condition_travail": {
+        "edit": {
+          "label": "condition_travail",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "condition_travail",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "secteurs_activite": {
+        "edit": {
+          "label": "secteurs_activite",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "secteurs_activite",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "identifiant": {
+        "edit": {
+          "label": "identifiant",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "identifiant",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "centres_interet": {
+        "edit": {
+          "label": "centres_interet",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "centres_interet",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "niveau_acces_min": {
+        "edit": {
+          "label": "niveau_acces_min",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "niveau_acces_min",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "nature_travail": {
+        "edit": {
+          "label": "nature_travail",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nature_travail",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "vie_professionnelle": {
+        "edit": {
+          "label": "vie_professionnelle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "vie_professionnelle",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "acces_metier": {
+        "edit": {
+          "label": "acces_metier",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "acces_metier",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "statuts": {
+        "edit": {
+          "label": "statuts",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "statuts",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "formations_min_requise": {
+        "edit": {
+          "label": "formations_min_requise",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "formations_min_requise",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "accroche_metier": {
+        "edit": {
+          "label": "accroche_metier",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "accroche_metier",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "libelle_feminin": {
+        "edit": {
+          "label": "libelle_feminin",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "libelle_feminin",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "libelle_masculin": {
+        "edit": {
+          "label": "libelle_masculin",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "libelle_masculin",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "synonymes": {
+        "edit": {
+          "label": "synonymes",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "synonymes",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "nom_metier",
+        "secteurs_activite",
+        "identifiant"
+      ],
+      "editRelations": [],
+      "edit": [
+        [
+          {
+            "name": "nom_metier",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "competences",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "condition_travail",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "secteurs_activite",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "identifiant",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "centres_interet",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "niveau_acces_min",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "nature_travail",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "vie_professionnelle",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "acces_metier",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "statuts",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "formations_min_requise",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "accroche_metier",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "libelle_feminin",
+            "size": 6
+          },
+          {
+            "name": "libelle_masculin",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "synonymes",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::fiche-metier.niveau-acces-minimal",
+  "value": {
+    "uid": "fiche-metier.niveau-acces-minimal",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "libelle",
+      "defaultSortBy": "libelle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "libelle": {
+        "edit": {
+          "label": "libelle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "libelle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "identifiant": {
+        "edit": {
+          "label": "identifiant",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "identifiant",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "libelle",
+        "identifiant"
+      ],
+      "edit": [
+        [
+          {
+            "name": "libelle",
+            "size": 6
+          },
+          {
+            "name": "identifiant",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

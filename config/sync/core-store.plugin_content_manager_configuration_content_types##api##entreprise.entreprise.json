@@ -1,0 +1,277 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::entreprise.entreprise",
+  "value": {
+    "uid": "api::entreprise.entreprise",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "nom_societe",
+      "defaultSortBy": "nom_societe",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "nom_societe": {
+        "edit": {
+          "label": "nom_societe",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nom_societe",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "code_postal": {
+        "edit": {
+          "label": "code_postal",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "code_postal",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ville": {
+        "edit": {
+          "label": "ville",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ville",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "siret": {
+        "edit": {
+          "label": "siret",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "siret",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "taille": {
+        "edit": {
+          "label": "taille",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "taille",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "secteur": {
+        "edit": {
+          "label": "secteur",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "secteur",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "prenom": {
+        "edit": {
+          "label": "prenom",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "prenom",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "telephone": {
+        "edit": {
+          "label": "telephone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "telephone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "email": {
+        "edit": {
+          "label": "email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "nom": {
+        "edit": {
+          "label": "nom",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nom",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "travail": {
+        "edit": {
+          "label": "travail",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "travail",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "nom_societe",
+        "code_postal",
+        "siret"
+      ],
+      "edit": [
+        [
+          {
+            "name": "nom_societe",
+            "size": 6
+          },
+          {
+            "name": "code_postal",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "siret",
+            "size": 6
+          },
+          {
+            "name": "taille",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "secteur",
+            "size": 6
+          },
+          {
+            "name": "prenom",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "telephone",
+            "size": 6
+          },
+          {
+            "name": "email",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "nom",
+            "size": 6
+          },
+          {
+            "name": "travail",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ville",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,107 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::accessibilite.accessibilite",
+  "value": {
+    "uid": "api::accessibilite.accessibilite",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titre",
+      "defaultSortBy": "titre",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titre": {
+        "edit": {
+          "label": "titre",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titre",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contenu": {
+        "edit": {
+          "label": "contenu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "titre",
+        "createdAt",
+        "updatedAt"
+      ],
+      "editRelations": [],
+      "edit": [
+        [
+          {
+            "name": "titre",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "contenu",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

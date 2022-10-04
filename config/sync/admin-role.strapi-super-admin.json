@@ -1,0 +1,1066 @@
+{
+  "name": "Super Admin",
+  "code": "strapi-super-admin",
+  "description": "Super Admins can access and manage all features and settings.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::accessibilite.accessibilite",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::accessibilite.accessibilite",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::accessibilite.accessibilite",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::accessibilite.accessibilite",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::accessibilite.accessibilite",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::article.article",
+      "properties": {
+        "fields": [
+          "titre",
+          "slug",
+          "contenu",
+          "banniere"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::article.article",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::article.article",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::article.article",
+      "properties": {
+        "fields": [
+          "titre",
+          "slug",
+          "contenu",
+          "banniere"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::article.article",
+      "properties": {
+        "fields": [
+          "titre",
+          "slug",
+          "contenu",
+          "banniere"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::conditions-generales-d-utilisation.conditions-generales-d-utilisation",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::conditions-generales-d-utilisation.conditions-generales-d-utilisation",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::conditions-generales-d-utilisation.conditions-generales-d-utilisation",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::conditions-generales-d-utilisation.conditions-generales-d-utilisation",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::conditions-generales-d-utilisation.conditions-generales-d-utilisation",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::contact-cej.contact-cej",
+      "properties": {
+        "fields": [
+          "prenom",
+          "nom",
+          "email",
+          "telephone",
+          "age",
+          "ville",
+          "code_postal"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::contact-cej.contact-cej",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::contact-cej.contact-cej",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::contact-cej.contact-cej",
+      "properties": {
+        "fields": [
+          "prenom",
+          "nom",
+          "email",
+          "telephone",
+          "age",
+          "ville",
+          "code_postal"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::contact-cej.contact-cej",
+      "properties": {
+        "fields": [
+          "prenom",
+          "nom",
+          "email",
+          "telephone",
+          "age",
+          "ville",
+          "code_postal"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::contact-entreprise.contact-entreprise",
+      "properties": {
+        "fields": [
+          "prenom",
+          "nom",
+          "email",
+          "telephone",
+          "sujet",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::contact-entreprise.contact-entreprise",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::contact-entreprise.contact-entreprise",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::contact-entreprise.contact-entreprise",
+      "properties": {
+        "fields": [
+          "prenom",
+          "nom",
+          "email",
+          "telephone",
+          "sujet",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::contact-entreprise.contact-entreprise",
+      "properties": {
+        "fields": [
+          "prenom",
+          "nom",
+          "email",
+          "telephone",
+          "sujet",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::entreprise.entreprise",
+      "properties": {
+        "fields": [
+          "nom_societe",
+          "code_postal",
+          "ville",
+          "siret",
+          "taille",
+          "secteur",
+          "prenom",
+          "telephone",
+          "email",
+          "nom",
+          "travail"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::entreprise.entreprise",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::entreprise.entreprise",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::entreprise.entreprise",
+      "properties": {
+        "fields": [
+          "nom_societe",
+          "code_postal",
+          "ville",
+          "siret",
+          "taille",
+          "secteur",
+          "prenom",
+          "telephone",
+          "email",
+          "nom",
+          "travail"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::entreprise.entreprise",
+      "properties": {
+        "fields": [
+          "nom_societe",
+          "code_postal",
+          "ville",
+          "siret",
+          "taille",
+          "secteur",
+          "prenom",
+          "telephone",
+          "email",
+          "nom",
+          "travail"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::fiche-metier.fiche-metier",
+      "properties": {
+        "fields": [
+          "nom_metier",
+          "competences",
+          "condition_travail",
+          "secteurs_activite.identifiant",
+          "secteurs_activite.libelle",
+          "identifiant",
+          "centres_interet.identifiant",
+          "centres_interet.libelle",
+          "niveau_acces_min.libelle",
+          "niveau_acces_min.identifiant",
+          "nature_travail",
+          "vie_professionnelle",
+          "acces_metier",
+          "statuts.identifiant",
+          "statuts.id_ideo1",
+          "statuts.libelle",
+          "formations_min_requise.identifiant",
+          "formations_min_requise.libelle",
+          "accroche_metier",
+          "libelle_feminin",
+          "libelle_masculin",
+          "synonymes"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::fiche-metier.fiche-metier",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::fiche-metier.fiche-metier",
+      "properties": {
+        "fields": [
+          "nom_metier",
+          "competences",
+          "condition_travail",
+          "secteurs_activite.identifiant",
+          "secteurs_activite.libelle",
+          "identifiant",
+          "centres_interet.identifiant",
+          "centres_interet.libelle",
+          "niveau_acces_min.libelle",
+          "niveau_acces_min.identifiant",
+          "nature_travail",
+          "vie_professionnelle",
+          "acces_metier",
+          "statuts.identifiant",
+          "statuts.id_ideo1",
+          "statuts.libelle",
+          "formations_min_requise.identifiant",
+          "formations_min_requise.libelle",
+          "accroche_metier",
+          "libelle_feminin",
+          "libelle_masculin",
+          "synonymes"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::fiche-metier.fiche-metier",
+      "properties": {
+        "fields": [
+          "nom_metier",
+          "competences",
+          "condition_travail",
+          "secteurs_activite.identifiant",
+          "secteurs_activite.libelle",
+          "identifiant",
+          "centres_interet.identifiant",
+          "centres_interet.libelle",
+          "niveau_acces_min.libelle",
+          "niveau_acces_min.identifiant",
+          "nature_travail",
+          "vie_professionnelle",
+          "acces_metier",
+          "statuts.identifiant",
+          "statuts.id_ideo1",
+          "statuts.libelle",
+          "formations_min_requise.identifiant",
+          "formations_min_requise.libelle",
+          "accroche_metier",
+          "libelle_feminin",
+          "libelle_masculin",
+          "synonymes"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::les-mesures-employeurs.les-mesures-employeurs",
+      "properties": {
+        "fields": [
+          "dispositifs.titre",
+          "dispositifs.contenu",
+          "dispositifs.banniere",
+          "dispositifs.url",
+          "dispositifs.article",
+          "dispositifs.pourQui"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::les-mesures-employeurs.les-mesures-employeurs",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::les-mesures-employeurs.les-mesures-employeurs",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::les-mesures-employeurs.les-mesures-employeurs",
+      "properties": {
+        "fields": [
+          "dispositifs.titre",
+          "dispositifs.contenu",
+          "dispositifs.banniere",
+          "dispositifs.url",
+          "dispositifs.article",
+          "dispositifs.pourQui"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::les-mesures-employeurs.les-mesures-employeurs",
+      "properties": {
+        "fields": [
+          "dispositifs.titre",
+          "dispositifs.contenu",
+          "dispositifs.banniere",
+          "dispositifs.url",
+          "dispositifs.article",
+          "dispositifs.pourQui"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::mention-legale.mention-legale",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::mention-legale.mention-legale",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::mention-legale.mention-legale",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::mention-legale.mention-legale",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::mention-legale.mention-legale",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::mesure-jeune.mesure-jeune",
+      "properties": {
+        "fields": [
+          "vieProfessionnelle.titre",
+          "vieProfessionnelle.contenu",
+          "vieProfessionnelle.banniere",
+          "vieProfessionnelle.url",
+          "vieProfessionnelle.article",
+          "vieProfessionnelle.pourQui",
+          "orienterFormer.titre",
+          "orienterFormer.contenu",
+          "orienterFormer.banniere",
+          "orienterFormer.url",
+          "orienterFormer.article",
+          "orienterFormer.pourQui",
+          "accompagnement.titre",
+          "accompagnement.contenu",
+          "accompagnement.banniere",
+          "accompagnement.url",
+          "accompagnement.article",
+          "accompagnement.pourQui",
+          "aidesFinancieres.titre",
+          "aidesFinancieres.contenu",
+          "aidesFinancieres.banniere",
+          "aidesFinancieres.url",
+          "aidesFinancieres.article",
+          "aidesFinancieres.pourQui"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::mesure-jeune.mesure-jeune",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::mesure-jeune.mesure-jeune",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::mesure-jeune.mesure-jeune",
+      "properties": {
+        "fields": [
+          "vieProfessionnelle.titre",
+          "vieProfessionnelle.contenu",
+          "vieProfessionnelle.banniere",
+          "vieProfessionnelle.url",
+          "vieProfessionnelle.article",
+          "vieProfessionnelle.pourQui",
+          "orienterFormer.titre",
+          "orienterFormer.contenu",
+          "orienterFormer.banniere",
+          "orienterFormer.url",
+          "orienterFormer.article",
+          "orienterFormer.pourQui",
+          "accompagnement.titre",
+          "accompagnement.contenu",
+          "accompagnement.banniere",
+          "accompagnement.url",
+          "accompagnement.article",
+          "accompagnement.pourQui",
+          "aidesFinancieres.titre",
+          "aidesFinancieres.contenu",
+          "aidesFinancieres.banniere",
+          "aidesFinancieres.url",
+          "aidesFinancieres.article",
+          "aidesFinancieres.pourQui"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::mesure-jeune.mesure-jeune",
+      "properties": {
+        "fields": [
+          "vieProfessionnelle.titre",
+          "vieProfessionnelle.contenu",
+          "vieProfessionnelle.banniere",
+          "vieProfessionnelle.url",
+          "vieProfessionnelle.article",
+          "vieProfessionnelle.pourQui",
+          "orienterFormer.titre",
+          "orienterFormer.contenu",
+          "orienterFormer.banniere",
+          "orienterFormer.url",
+          "orienterFormer.article",
+          "orienterFormer.pourQui",
+          "accompagnement.titre",
+          "accompagnement.contenu",
+          "accompagnement.banniere",
+          "accompagnement.url",
+          "accompagnement.article",
+          "accompagnement.pourQui",
+          "aidesFinancieres.titre",
+          "aidesFinancieres.contenu",
+          "aidesFinancieres.banniere",
+          "aidesFinancieres.url",
+          "aidesFinancieres.article",
+          "aidesFinancieres.pourQui"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::politique-de-confidentialite.politique-de-confidentialite",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::politique-de-confidentialite.politique-de-confidentialite",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::politique-de-confidentialite.politique-de-confidentialite",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::politique-de-confidentialite.politique-de-confidentialite",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::politique-de-confidentialite.politique-de-confidentialite",
+      "properties": {
+        "fields": [
+          "titre",
+          "contenu"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.plugins.install",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.plugins.uninstall",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.menu-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.collection-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.components.configure-layout",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::users-permissions.user",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.single-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-type-builder.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::documentation.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::documentation.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::documentation.settings.regenerate",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::documentation.settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::email.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}
