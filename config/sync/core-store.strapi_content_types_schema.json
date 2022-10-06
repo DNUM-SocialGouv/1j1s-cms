@@ -2098,6 +2098,9 @@
         "travail": {
           "type": "string"
         },
+        "erreur": {
+          "type": "string"
+        },
         "createdAt": {
           "type": "datetime"
         },
