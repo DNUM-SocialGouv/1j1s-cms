@@ -1,0 +1,22 @@
+{
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "api::contact-cej.contact-cej.create"
+    },
+    {
+      "action": "api::contact-entreprise.contact-entreprise.create"
+    },
+    {
+      "action": "api::entreprise.entreprise.create"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    }
+  ]
+}

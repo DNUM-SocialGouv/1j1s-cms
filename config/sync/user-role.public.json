@@ -1,0 +1,43 @@
+{
+  "name": "Public",
+  "description": "Default role given to unauthenticated user.",
+  "type": "public",
+  "permissions": [
+    {
+      "action": "api::accessibilite.accessibilite.find"
+    },
+    {
+      "action": "api::article.article.find"
+    },
+    {
+      "action": "api::conditions-generales-d-utilisation.conditions-generales-d-utilisation.find"
+    },
+    {
+      "action": "api::fiche-metier.fiche-metier.find"
+    },
+    {
+      "action": "api::les-mesures-employeurs.les-mesures-employeurs.find"
+    },
+    {
+      "action": "api::mention-legale.mention-legale.find"
+    },
+    {
+      "action": "api::mesure-jeune.mesure-jeune.find"
+    },
+    {
+      "action": "api::politique-de-confidentialite.politique-de-confidentialite.find"
+    },
+    {
+      "action": "plugin::users-permissions.auth.callback"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.auth.register"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    }
+  ]
+}
