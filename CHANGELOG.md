@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.3.0...v1.3.1) (2022-10-12)
+
+
+### Bug Fixes
+
+* **config:** meilleures config pour les utilisateurs publics ([#43](https://github.com/DNUM-SocialGouv/1j1s-cms/issues/43)) ([54c86b6](https://github.com/DNUM-SocialGouv/1j1s-cms/commit/54c86b667d930f436ba4cb3811846c13b4586ba7))
+
 ## [1.3.0](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.2.0...v1.3.0) (2022-10-12)
 
 
