@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.2.0...v1.3.0) (2022-10-12)
+
+
+### Features
+
+* **infra:** ajout des permissions pour les roles publics ([#41](https://github.com/DNUM-SocialGouv/1j1s-cms/issues/41)) ([0d92c5c](https://github.com/DNUM-SocialGouv/1j1s-cms/commit/0d92c5c3edea676102597f8a7247a94f163d491f))
+
 ## [1.2.0](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.1.0...v1.2.0) (2022-09-27)
 
 
