@@ -10,10 +10,16 @@
       "action": "api::article.article.find"
     },
     {
+      "action": "api::article.article.findOne"
+    },
+    {
       "action": "api::conditions-generales-d-utilisation.conditions-generales-d-utilisation.find"
     },
     {
       "action": "api::fiche-metier.fiche-metier.find"
+    },
+    {
+      "action": "api::fiche-metier.fiche-metier.findOne"
     },
     {
       "action": "api::les-mesures-employeurs.les-mesures-employeurs.find"
@@ -34,7 +40,19 @@
       "action": "plugin::users-permissions.auth.connect"
     },
     {
+      "action": "plugin::users-permissions.auth.emailConfirmation"
+    },
+    {
+      "action": "plugin::users-permissions.auth.forgotPassword"
+    },
+    {
       "action": "plugin::users-permissions.auth.register"
+    },
+    {
+      "action": "plugin::users-permissions.auth.resetPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.sendEmailConfirmation"
     },
     {
       "action": "plugin::users-permissions.user.me"
