@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.3.1...v1.3.2) (2022-11-03)
+
+
+### Miscellaneous Chores
+
+* **dependencies:** mise à jour des dépendances ([#47](https://github.com/DNUM-SocialGouv/1j1s-cms/issues/47)) ([1760204](https://github.com/DNUM-SocialGouv/1j1s-cms/commit/176020499c43cb89b6fd3e608e0dbc8df70886b0))
+
 ## [1.3.1](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.3.0...v1.3.1) (2022-10-12)
 
 
