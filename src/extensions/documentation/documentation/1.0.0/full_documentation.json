@@ -14,7 +14,7 @@
       "name": "MIT",
       "url": "https://github.com/DNUM-SocialGouv/1j1s-cms/blob/main/LICENSE"
     },
-    "x-generation-date": "2022-11-03T10:20:27.016Z"
+    "x-generation-date": "2022-11-03T13:45:28.340Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -9443,7 +9443,7 @@
               "erreur": {
                 "type": "string"
               },
-              "nombre_recrutement": {
+              "nombreARecruter": {
                 "type": "string"
               },
               "commentaire": {
@@ -9499,7 +9499,7 @@
               "erreur": {
                 "type": "string"
               },
-              "nombre_recrutement": {
+              "nombreARecruter": {
                 "type": "string"
               },
               "commentaire": {
@@ -9852,7 +9852,7 @@
               "erreur": {
                 "type": "string"
               },
-              "nombre_recrutement": {
+              "nombreARecruter": {
                 "type": "string"
               },
               "commentaire": {
@@ -10238,7 +10238,7 @@
               "erreur": {
                 "type": "string"
               },
-              "nombre_recrutement": {
+              "nombreARecruter": {
                 "type": "string"
               },
               "commentaire": {
@@ -10591,7 +10591,7 @@
               "erreur": {
                 "type": "string"
               },
-              "nombre_recrutement": {
+              "nombreARecruter": {
                 "type": "string"
               },
               "commentaire": {
