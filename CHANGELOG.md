@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.3.2...v1.4.0) (2022-11-04)
+
+
+### Features
+
+* **Page POE:** creation collection type Contact POE ([99c7765](https://github.com/DNUM-SocialGouv/1j1s-cms/commit/99c7765e363444ed48c14cf8b526d33d44f65c09))
+
+
+### Bug Fixes
+
+* **Contact POE:** droits de création API ([#51](https://github.com/DNUM-SocialGouv/1j1s-cms/issues/51)) ([529e3ff](https://github.com/DNUM-SocialGouv/1j1s-cms/commit/529e3ff2399e2ec1a9d446cbdf452c29df3b1df9))
+
 ## [1.3.2](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.3.1...v1.3.2) (2022-11-03)
 
 
