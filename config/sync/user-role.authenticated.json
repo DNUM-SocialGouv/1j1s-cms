@@ -10,6 +10,9 @@
       "action": "api::contact-entreprise.contact-entreprise.create"
     },
     {
+      "action": "api::contact-entreprise.contact-poe.create"
+    },
+    {
       "action": "api::entreprise.entreprise.create"
     },
     {
