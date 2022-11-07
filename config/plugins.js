@@ -1,4 +1,4 @@
-module.exports = ({ env }) => ({
+module.exports = ({env}) => ({
   upload: {
     config: {
       provider: 'aws-s3',
@@ -34,13 +34,15 @@ module.exports = ({ env }) => ({
       host: env('PLUGIN_MEILISEARCH_URL'),
       apiKey: env("PLUGIN_MEILISEARCH_API_KEY"),
       "fiche-metier": {
-        populateEntryRule: [
-          'centres_interet',
-          'formations_min_requise',
-          'niveau_acces_min',
-          'secteurs_activite',
-          'statuts',
-        ]
+        entriesQuery: {
+          populate: [
+            'centres_interet',
+            'formations_min_requise',
+            'niveau_acces_min',
+            'secteurs_activite',
+            'statuts',
+          ]
+        }
       }
     }
   },
