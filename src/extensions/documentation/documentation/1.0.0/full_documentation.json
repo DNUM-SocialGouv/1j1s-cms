@@ -14,7 +14,7 @@
       "name": "MIT",
       "url": "https://github.com/DNUM-SocialGouv/1j1s-cms/blob/main/LICENSE"
     },
-    "x-generation-date": "2022-09-26T16:20:53.975Z"
+    "x-generation-date": "2022-11-07T15:51:06.656Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6623,6 +6623,9 @@
               },
               "ville": {
                 "type": "string"
+              },
+              "code_postal": {
+                "type": "string"
               }
             }
           }
@@ -6654,6 +6657,9 @@
                 "type": "integer"
               },
               "ville": {
+                "type": "string"
+              },
+              "code_postal": {
                 "type": "string"
               },
               "createdAt": {
@@ -6983,6 +6989,9 @@
                 "type": "integer"
               },
               "ville": {
+                "type": "string"
+              },
+              "code_postal": {
                 "type": "string"
               },
               "createdAt": {
@@ -7347,6 +7356,9 @@
               "ville": {
                 "type": "string"
               },
+              "code_postal": {
+                "type": "string"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -7674,6 +7686,9 @@
                 "type": "integer"
               },
               "ville": {
+                "type": "string"
+              },
+              "code_postal": {
                 "type": "string"
               },
               "createdAt": {
@@ -9401,6 +9416,9 @@
               "code_postal": {
                 "type": "string"
               },
+              "ville": {
+                "type": "string"
+              },
               "siret": {
                 "type": "string"
               },
@@ -9423,6 +9441,9 @@
                 "type": "string"
               },
               "travail": {
+                "type": "string"
+              },
+              "erreur": {
                 "type": "string"
               }
             }
@@ -9444,6 +9465,9 @@
               "code_postal": {
                 "type": "string"
               },
+              "ville": {
+                "type": "string"
+              },
               "siret": {
                 "type": "string"
               },
@@ -9466,6 +9490,9 @@
                 "type": "string"
               },
               "travail": {
+                "type": "string"
+              },
+              "erreur": {
                 "type": "string"
               },
               "createdAt": {
@@ -9784,6 +9811,9 @@
               "code_postal": {
                 "type": "string"
               },
+              "ville": {
+                "type": "string"
+              },
               "siret": {
                 "type": "string"
               },
@@ -9806,6 +9836,9 @@
                 "type": "string"
               },
               "travail": {
+                "type": "string"
+              },
+              "erreur": {
                 "type": "string"
               },
               "createdAt": {
@@ -10157,6 +10190,9 @@
               "code_postal": {
                 "type": "string"
               },
+              "ville": {
+                "type": "string"
+              },
               "siret": {
                 "type": "string"
               },
@@ -10179,6 +10215,9 @@
                 "type": "string"
               },
               "travail": {
+                "type": "string"
+              },
+              "erreur": {
                 "type": "string"
               },
               "createdAt": {
@@ -10497,6 +10536,9 @@
               "code_postal": {
                 "type": "string"
               },
+              "ville": {
+                "type": "string"
+              },
               "siret": {
                 "type": "string"
               },
@@ -10519,6 +10561,9 @@
                 "type": "string"
               },
               "travail": {
+                "type": "string"
+              },
+              "erreur": {
                 "type": "string"
               },
               "createdAt": {
