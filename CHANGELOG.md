@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.4.0...v1.5.0) (2022-11-18)
+
+
+### Features
+
+* **Sentry:** ajout de la release ([51d486c](https://github.com/DNUM-SocialGouv/1j1s-cms/commit/51d486ccb02c2581a8fd7bd21e8b31fb746be8f3))
+
 ## [1.4.0](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.3.2...v1.4.0) (2022-11-04)
 
 
