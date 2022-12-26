@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.5.0...v1.6.0) (2022-12-26)
+
+
+### Features
+
+* **actualites:** creation single type actualites avec composant répétables existant cartes lien ([39c786d](https://github.com/DNUM-SocialGouv/1j1s-cms/commit/39c786d2fa993ab2ddcb52e4437de26253bb299d))
+
 ## [1.5.0](https://github.com/DNUM-SocialGouv/1j1s-cms/compare/v1.4.0...v1.5.0) (2022-11-18)
 
 
