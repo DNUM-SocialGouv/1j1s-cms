@@ -25,7 +25,8 @@
     "pg": "^8.8.0",
     "strapi-plugin-config-sync": "^1.0.4",
     "strapi-plugin-import-export-entries": "~1.18.0",
-    "strapi-plugin-meilisearch": "^0.8.0"
+    "strapi-plugin-meilisearch": "^0.8.0",
+    "strapi-plugin-populate-deep": "~2.0.0"
   },
   "strapi": {
     "uuid": "38cba15f-5ea8-4729-9cfd-98cac9fb8919"

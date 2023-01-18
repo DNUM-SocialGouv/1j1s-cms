@@ -1,4 +1,4 @@
-module.exports = ({ env }) => ({
+module.exports = ({env}) => ({
   upload: {
     config: {
       provider: 'aws-s3',
@@ -35,9 +35,9 @@ module.exports = ({ env }) => ({
       apiKey: env("PLUGIN_MEILISEARCH_API_KEY"),
       "fiche-metier": {
         settings: {
-          filterableAttributes: ['centres_interet','formations_min_requise','niveau_acces_min','secteurs_activite','status'],
+          filterableAttributes: ['centres_interet', 'formations_min_requise', 'niveau_acces_min', 'secteurs_activite', 'status'],
         },
-        transformEntry({ entry }) {
+        transformEntry({entry}) {
           return {
             id: entry.id,
             nom_metier: entry.nom_metier,
@@ -49,11 +49,11 @@ module.exports = ({ env }) => ({
             accroche_metier: entry.accroche_metier,
             libelle_feminin: entry.libelle_feminin,
             libelle_masculin: entry.libelle_masculin,
-            centres_interet: entry.centres_interet && entry.centres_interet.map(({ libelle }) => libelle),
-            formations_min_requise: entry.formations_min_requise && entry.formations_min_requise.map(({ libelle }) => libelle),
-            niveau_acces_min: entry.niveau_acces_min && entry.niveau_acces_min.map(({ libelle }) => libelle),
-            secteurs_activite: entry.secteurs_activite && entry.secteurs_activite.map(({ libelle }) => libelle),
-            statuts: entry.statuts && entry.statuts.map(({ libelle }) => libelle)
+            centres_interet: entry.centres_interet && entry.centres_interet.map(({libelle}) => libelle),
+            formations_min_requise: entry.formations_min_requise && entry.formations_min_requise.map(({libelle}) => libelle),
+            niveau_acces_min: entry.niveau_acces_min && entry.niveau_acces_min.map(({libelle}) => libelle),
+            secteurs_activite: entry.secteurs_activite && entry.secteurs_activite.map(({libelle}) => libelle),
+            statuts: entry.statuts && entry.statuts.map(({libelle}) => libelle)
           }
         }
       }
@@ -64,7 +64,7 @@ module.exports = ({ env }) => ({
     config: {
       dsn: env('SENTRY_DSN'),
       init: {
-        release : `${env('npm_package_name')}@${env('npm_package_version')}`,
+        release: `${env('npm_package_name')}@${env('npm_package_version')}`,
         environment: env('NODE_ENV')
       }
     },
@@ -126,6 +126,11 @@ module.exports = ({ env }) => ({
         'core-store.plugin_upload_metrics',
         'core-store.plugin_users-permissions_grant'
       ]
+    },
+  },
+  'strapi-plugin-populate-deep': {
+    config: {
+      defaultDepth: 5
     },
   },
 });

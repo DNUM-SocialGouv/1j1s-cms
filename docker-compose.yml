@@ -9,3 +9,20 @@ services:
       POSTGRES_PASSWORD: 1front1cms
     ports:
       - 5432:5432
+  meilisearch:
+    container_name: 1j1s-meilisearch
+    image: getmeili/meilisearch:v0.30.5
+    environment:
+      - MEILI_MASTER_KEY=${PLUGIN_MEILISEARCH_API_KEY:-masterKey}
+      - MEILI_NO_ANALYTICS=${MEILI_NO_ANALYTICS:-true}
+      - MEILI_ENV=${MEILI_ENV:-development}
+      - MEILI_LOG_LEVEL=${MEILI_LOG_LEVEL:-trace}
+      - MEILI_DB_PATH=${MEILI_DB_PATH:-/data.ms}
+      - STRAPI_TELEMETRY_DISABLED=true
+    volumes:
+      - meilisearch-data:/data.ms
+    ports:
+      - 7700:7700
+
+volumes:
+  meilisearch-data:
